@@ -46,7 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Strength: 1
   Textures:
-  - Diffuse: {fileID: 2800000, guid: 5538c68f22e92cf469ae6790bebd20e6, type: 3}
-    NormalMap: {fileID: 0}
-  - Diffuse: {fileID: 2800000, guid: 269718ae2a834f043bb4d891c20a1b8f, type: 3}
+  - Diffuse: {fileID: 2800000, guid: 38bb15d6b378aff46b461e248592d1da, type: 3}
     NormalMap: {fileID: 0}

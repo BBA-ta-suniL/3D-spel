@@ -66,7 +66,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength: 1
-  SmoothingKernelSize: 4
+  SmoothingKernelSize: 1
 --- !u!114 &-5371260973750052999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,6 +96,6 @@ MonoBehaviour:
   Strength: 1
   Buildings:
   - HeightMap: {fileID: 2800000, guid: e7e6e807aa08e2d4987169b858f899e5, type: 3}
-    Prefab: {fileID: 919132149155446097, guid: d576429d9e0400347b79cb531195d438, type: 3}
-    Radius: 50
-    NumToSpawn: 100
+    Prefab: {fileID: 1364922359172550, guid: 7e3c80b421a0d465b80b8e51a763ea9c, type: 3}
+    Radius: 20
+    NumToSpawn: 5000

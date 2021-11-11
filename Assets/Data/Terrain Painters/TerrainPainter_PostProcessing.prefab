@@ -163,4 +163,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength: 1
-  SmoothingKernelSize: 10
+  SmoothingKernelSize: 100
