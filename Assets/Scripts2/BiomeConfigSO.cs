@@ -14,4 +14,25 @@ public class BiomeConfigSO : ScriptableObject
     [Range(0f, 1f)] public float MaxDecayRate = 0.02f;
 
     public GameObject HeightModifier;
+    public GameObject TerrainPainter;
+    public GameObject ObjectPlacer;
+
+    public List<TextureConfig> RetrieveTextures() {
+        if (TerrainPainter == null)
+            return null;
+
+        // extract all textures from every painter
+        List<TextureConfig> allTextures = new List<TextureConfig>();
+        BaseTexturePainter[] allPainters = TerrainPainter.GetComponents<BaseTexturePainter>();
+        foreach (var painter in allPainters) {
+            var painterTextures = painter.RetrieveTextures();
+
+            if (painterTextures == null || painterTextures.Count == 0)
+                continue;
+
+            allTextures.AddRange(painterTextures);
+        }
+
+        return allTextures;
+    }
 }

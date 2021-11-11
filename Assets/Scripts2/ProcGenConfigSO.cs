@@ -29,6 +29,7 @@ public class ProcGenConfigSO : ScriptableObject
     public GameObject InitialHeightModifier;
     public GameObject HeightPostProcessingModifier;
 
+    public GameObject PaintingPostProcessingModifier;
     public int NumBiomes => Biomes.Count;
 
     public float TotalWeighting
