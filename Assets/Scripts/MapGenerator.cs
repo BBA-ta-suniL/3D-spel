@@ -57,6 +57,7 @@ public class MapGenerator : MonoBehaviour {
 
 	void MapDataThread(Vector2 centre, Action<MapData> callback) {
 		MapData mapData = GenerateMapData (centre);
+		// Debug.Log(mapData);
 		lock (mapDataThreadInfoQueue) {
 			mapDataThreadInfoQueue.Enqueue (new MapThreadInfo<MapData> (callback, mapData));
 		}
