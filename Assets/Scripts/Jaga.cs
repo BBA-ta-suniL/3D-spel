@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Gizmos;
 
 public class Jaga : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class Jaga : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
-    public
+    public float health;
 
     //Patroling
     public Vector3 walkPoint;
@@ -104,7 +105,21 @@ public class Jaga : MonoBehaviour
 
     private void TakeDamage(int damage)
     {
+        health -= damage;
+        if (health <= 0) invoke(nameof(DestroyEnemy), 0.5f);
+    }
 
+    private void DestroyEnemy()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, sightRange);
     }
 
 }
