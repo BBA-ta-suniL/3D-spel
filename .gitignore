@@ -63,3 +63,4 @@ debug.log
 
 # Crashlytics generated file
 crashlytics-build.properties
+*.json
