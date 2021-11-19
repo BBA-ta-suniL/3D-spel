@@ -3,12 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tree
+  - Arms
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Arms
   - Water
   - UI
   - 
