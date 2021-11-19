@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Models/oak-tree/Materials/oaktree1_bark_BaseColor 1.mat.meta
 guid: b713bd7b180218c409f1fa2c7fe9c034
 NativeFormatImporter:
+=======
+guid: b8e9738d670d4324c8acc1182f4049b1
+PrefabImporter:
+>>>>>>> 2e43c2a9dfa9b5c58185e0b7b0d756abfcd3bed0:Assets/Import/Imported.prefab.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 

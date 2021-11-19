@@ -5,11 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tree
+<<<<<<< HEAD
+=======
+  - Arms
+>>>>>>> 2e43c2a9dfa9b5c58185e0b7b0d756abfcd3bed0
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
+<<<<<<< HEAD
   - Player
+=======
+  - Arms
+>>>>>>> 2e43c2a9dfa9b5c58185e0b7b0d756abfcd3bed0
   - Water
   - UI
   - 

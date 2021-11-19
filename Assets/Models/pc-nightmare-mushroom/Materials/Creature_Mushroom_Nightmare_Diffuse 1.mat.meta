@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Models/pc-nightmare-mushroom/Materials/Creature_Mushroom_Nightmare_Diffuse 1.mat.meta
 guid: c1c51bb8a2bd7034aa22da6e4a62f419
+=======
+guid: 59c9b63981faf82459311c7841aea0e4
+>>>>>>> 2e43c2a9dfa9b5c58185e0b7b0d756abfcd3bed0:Assets/Import/materials/material_0.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

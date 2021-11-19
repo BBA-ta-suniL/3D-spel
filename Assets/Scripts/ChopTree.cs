@@ -21,7 +21,10 @@ public class ChopTree : MonoBehaviour
 		{
 			if (Physics.Raycast(ray, out hitInfo, hitRange))
 			{
-				Debug.Log(hitInfo);
+				if(hitInfo.collider.tag == "House")
+				{
+					Debug.Log("HOUSE");
+				}
 			}
 		}
 	}
